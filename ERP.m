@@ -12,11 +12,11 @@
 % Go to Current Folder
 clear all
 close all
-ft_defaults; % Set the defualts of the FieldTrip Toolbox
-behavtab = readtable('C:\Users\Malte\Dropbox\Studium\Master\Masterkolloquium\Daten & Auswertung\MindEx_Daten.csv');
+ft_defaults; % Set the defaults of the FieldTrip Toolbox
+behavtab = readtable('C:\Users\...');
 
 % Where are the data?
-inpath = ('C:\Users\Malte\Desktop\MindEx\Daten\Auswertung\EEG_ERP_preproc\');
+inpath = ('C:\Users\...');
 % What are the data called?
 indat = dir([inpath,'*_preproc.mat']);
 %Standardize names across behavtab and indat
